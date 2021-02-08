@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/docker-handbook-github.webp" />
-  <HelloDock msg="The Docker Handbook" />
+  <div>
+    <img alt="Vue logo" src="./assets/docker-handbook-github.webp" />
+    <HelloDock msg="The Docker Handbook!" />
+  </div>
 </template>
 
 <script>
-import HelloDock from './components/HelloDock.vue'
+import HelloDock from "./components/HelloDock.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloDock
-  }
-}
+    HelloDock,
+  },
+};
 </script>
